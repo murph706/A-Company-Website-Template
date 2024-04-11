@@ -141,31 +141,34 @@ h3{
 .service-item{
 	padding: 20px 0 20px 0;
 	margin-bottom: 20px;
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 .service-item-icon i{
 	color: #34c6d3;
 	float: left;
-	padding: 15px; /*means top,right,bottom,left all 15px*/
+	padding: 15px; 
 	margin-right: 25px;
 	width: 75px;
 	height: 75px;
-	text-align: center;
+	text-align:  center;
 }
+/*
 .service-item:hover .service-item-icon i {
 	color: #fff;
 	background-color: #34c6d3;
-}
+}*/
 .service-item-title h3{
 	font-size: 20px;
 	font-weight: 400;
 	margin: 0 0 10px 0;
+	text-align: center;
 }
 .service-item-desc p{
 	margin: 0;
 	padding-left: 85px;
+	text-align: center;
 }
-
+/*means top,right,bottom,left all 15px*/
 
 /* ===================================
 		About Section (diagonal)
@@ -339,7 +342,7 @@ footer{
 	margin-bottom: 30px;
 }
 #contact-info {
-	background-image: url("../img/world-map.png");
+	/*background-image: url("../img/world-map.png");
 	background-repeat: no-repeat;
 	background-size: contain; /*Image contain in full height and width*/
 }
